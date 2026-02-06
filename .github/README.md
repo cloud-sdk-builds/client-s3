@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-s3`](https://www.npmjs.com/package/@aws-sdk/client-s3/v/3.892.0).
+[`@aws-sdk/client-s3`](https://www.npmjs.com/package/@aws-sdk/client-s3/v/3.893.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,12 +28,12 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.892.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.893.0/index.min.mjs
 ```
 
 SRI SHA Hash
 ```text
-sha384-zsYhOEEV8e8ozuOsTu9hypJ9fXr7KqbUPAkb4XdmZaz3w0hZ0urvA1QZo/yRzglN
+sha384-ArUVVojp1Wu+t9mICVit2E8HwdU8WX7Ho4jWftgPy8AKISyIcssCV7A4fM3e0Gmf
 ```
 
 ### 📌 Latest Version
@@ -53,10 +53,10 @@ https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3/index.min.mjs
     <script type="importmap">
       {
         "imports": {
-          "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.892.0/index.min.mjs"
+          "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.893.0/index.min.mjs"
         },
         "integrity": {
-          "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.892.0/index.min.mjs": "sha384-zsYhOEEV8e8ozuOsTu9hypJ9fXr7KqbUPAkb4XdmZaz3w0hZ0urvA1QZo/yRzglN"
+          "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.893.0/index.min.mjs": "sha384-ArUVVojp1Wu+t9mICVit2E8HwdU8WX7Ho4jWftgPy8AKISyIcssCV7A4fM3e0Gmf"
         }
       }
     </script>
@@ -122,7 +122,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.892.0`)
+* Always pin to a specific version (`@3.893.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -142,7 +142,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-s3/blob/refs/tags/3.892.0/LICENSE
+https://github.com/cloud-sdk-builds/client-s3/blob/refs/tags/3.893.0/LICENSE
 ```
 
 ---
