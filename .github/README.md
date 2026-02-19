@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-s3`](https://www.npmjs.com/package/@aws-sdk/client-s3/v/3.117.0).
+[`@aws-sdk/client-s3`](https://www.npmjs.com/package/@aws-sdk/client-s3/v/3.118.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.117.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.118.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-OV8RzN9Tygu45qgnS9KRI7rll63jl5Al4m2WeGIGzor3bAyYzkNXCG487U58+A6t
+sha384-KPPBrlXjh8W/G0gkEGHwv95wD496cTxU2UgHN+MonESX+5K+yw1llY+tJgwJpmYW
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.117.0/index.min.mjs"
+            "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.118.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.117.0/index.min.mjs": "sha384-OV8RzN9Tygu45qgnS9KRI7rll63jl5Al4m2WeGIGzor3bAyYzkNXCG487U58+A6t"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.118.0/index.min.mjs": "sha384-KPPBrlXjh8W/G0gkEGHwv95wD496cTxU2UgHN+MonESX+5K+yw1llY+tJgwJpmYW"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.117.0/index.min.mjs"
+                        "@aws-sdk/client-s3": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.118.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.117.0/index.min.mjs": "sha384-OV8RzN9Tygu45qgnS9KRI7rll63jl5Al4m2WeGIGzor3bAyYzkNXCG487U58+A6t"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-s3@3.118.0/index.min.mjs": "sha384-KPPBrlXjh8W/G0gkEGHwv95wD496cTxU2UgHN+MonESX+5K+yw1llY+tJgwJpmYW"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.117.0`)
+* Always pin to a specific version (`@3.118.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-s3/blob/refs/tags/3.117.0/LICENSE
+https://github.com/cloud-sdk-builds/client-s3/blob/refs/tags/3.118.0/LICENSE
 ```
 
 ---
